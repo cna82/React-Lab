@@ -1,0 +1,12 @@
+body {
+  background-color: #ddd;
+}
+
+section {
+  padding: 3rem 1rem 5rem 1rem;
+  margin: auto;
+  width: 80%;
+  height: auto;
+  display: grid;
+  grid-template: repeat(2, 500px)/repeat(4, 260px);
+}
