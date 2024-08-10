@@ -47,8 +47,8 @@ const App = () => {
           rate={4.2}
           isFreeShipping={false}
           count={80}
-          isSpecialSale={false}
-          discountPercent={0}
+          isSpecialSale={true}
+          discountPercent={4}
           imgSrc="./phoneImages/4.webp"
         />
         <ProductList
