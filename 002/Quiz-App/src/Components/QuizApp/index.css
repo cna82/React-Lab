@@ -1,0 +1,36 @@
+section {
+    height: 100vh;
+}
+
+.cursor-pointer:hover {
+    cursor: pointer !important;
+}
+
+.question-container {
+    list-style-type: none;
+}
+
+.question-container>li {
+    width: 100%;
+    padding: 1rem;
+    margin: 1rem;
+    background-color: #a5a3a360;
+    border-radius: 1rem;
+    letter-spacing: 1px;
+    transition: all .4s;
+    border: 1px solid #a5a3a360;
+}
+
+.question-container>li:hover {
+    background-color: transparent;
+
+}
+
+.disabled-item {
+    cursor: not-allowed !important;
+    pointer-events: none;
+}
+
+.content-after::after {
+    content: "  (Correct answer)";
+}
